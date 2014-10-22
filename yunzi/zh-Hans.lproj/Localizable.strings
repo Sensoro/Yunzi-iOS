@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  yunzi
+
+  Created by 回特 on 14-10-15.
+  Copyright (c) 2014年 sensoro. All rights reserved.
+*/
+
+"Yunzi" = "云子";
+
+"Check-Tips" = "云子应用需要一些系统权限，\n请开启以下服务！";
+"Notification-Tips" = "当推送开关开启时，\n进入和离开云子将收到推送。";
+"Location Services" = "定位服务";
+"Bluetooth" = "蓝牙";
+
+"Search-Tips" = "输入SN或ID进行搜索";
+
+"RSSI" = "RSSI";
+"Temperature" = "温度";
+"Light" = "光线";
+"Move" = "移动";
+"Distance" = "距离";
+"Proximity" = "范围";
+"Notification" = "推送";
+"Unknown" = "未知";
+
+"Immediate" = "很近";
+"Far" = "较远";
+"Near" = "附近";
+
+"Dark" = "昏暗";
+"Bright" = "明亮";
+"Normal" = "普通";
+
+"Move Count" = "移动次数";
+"Accelerometer Count" = "计数器";
+
+"Close" = "未开启";
+
+"Hardware" = "型号";
+"Firmware" = "固件";
+"Battery" = "电池";

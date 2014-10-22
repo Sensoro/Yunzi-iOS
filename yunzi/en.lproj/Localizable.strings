@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  yunzi
+
+  Created by 回特 on 14-10-15.
+  Copyright (c) 2014年 sensoro. All rights reserved.
+*/
+
+"Yunzi" = "Yunzi";
+
+"Check-Tips" = "Please enable the following\n services on your device!";
+"Notification-Tips" = "Your iOS device will receive notifaction\n when you approach or leave.";
+"Location Services" = "Location Services";
+"Bluetooth" = "Bluetooth";
+
+"Search-Tips" = "Start Search With SN or ID";
+"RSSI" = "RSSI";
+"Temperature" = "Temperature";
+"Light" = "Light";
+"Move" = "Move";
+"Distance" = "Distance";
+
+"Proximity" = "Proximity";
+"Notification" = "Notification";
+"Unknown" = "Unknown";
+
+"Immediate" = "Immediate";
+"Far" = "Far";
+"Near" = "Near";
+
+"Dark" = "Dark";
+"Bright" = "Bright";
+"Normal" = "Normal";
+
+"Move Count" = "Move Count";
+"Accelerometer Count" = "Accelerometer Count";
+
+"Close" = "Close";
+
+"Hardware" = "Hardware";
+"Firmware" = "Firmware";
+"Battery" = "Battery";
