@@ -64,7 +64,6 @@
 -(void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    self.proximity = self.proximity;
 }
 
 -(void)setProximity:(CLProximity)proximity

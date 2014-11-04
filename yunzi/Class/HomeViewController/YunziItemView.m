@@ -84,7 +84,7 @@
     else{
         self.hidden = NO;
         self.imageView.backgroundColor = [UIColor whiteColor];
-        [self.IDLabel setText:[NSString stringWithFormat:@"ID: %X-%X",[self.beacon.beaconID.major integerValue],[self.beacon.beaconID.minor integerValue]]];
+        [self.IDLabel setText:[NSString stringWithFormat:@"ID: %04X-%04X",[self.beacon.beaconID.major unsignedShortValue],[self.beacon.beaconID.minor unsignedShortValue]]];
         [self.SNLabel setText:[NSString stringWithFormat:@"SN: %@",self.beacon.serialNumber]];
     }
 }

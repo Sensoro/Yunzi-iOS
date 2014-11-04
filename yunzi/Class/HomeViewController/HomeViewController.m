@@ -65,12 +65,6 @@
     self.dataArray = [NSMutableArray array];
     NSArray * array =  [[SBKBeaconManager sharedInstance] beaconsInRange];
     for (SBKBeacon * beacon in array) {
-        /*
-        if(!beacon.serialNumber)
-        {
-            return;
-        }
-        */
         [self.dataArray addObject:beacon];
     }
     [self.tableView reloadData];
@@ -273,7 +267,7 @@
             continue;
         }
         */
-        NSString * string = [NSString stringWithFormat:@"%@%X-%X",beacon.serialNumber,[beacon.beaconID.major integerValue],[beacon.beaconID.minor integerValue]];
+        NSString * string = [NSString stringWithFormat:@"%@%04X-%04X",beacon.serialNumber,[beacon.beaconID.major unsignedShortValue],[beacon.beaconID.minor unsignedShortValue]];
         if ([[string lowercaseString] rangeOfString:[searchText lowercaseString]].length) {
             [self.filteredArray addObject:beacon];
         }
