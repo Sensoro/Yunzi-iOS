@@ -772,8 +772,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				CODE_SIGN_IDENTITY = "iPhone Developer: TE HUI (4EYA86V3Q7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TE HUI (4EYA86V3Q7)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
 				INFOPLIST_FILE = yunzi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -782,7 +782,7 @@
 					"$(PROJECT_DIR)/yunzi/ThirdParty/SBK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "78b51a6d-729b-4d65-961e-c40bea58c983";
+				PROVISIONING_PROFILE = "96595369-2e3e-445c-8925-5d355bdbd520";
 			};
 			name = Debug;
 		};
@@ -791,8 +791,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				CODE_SIGN_IDENTITY = "iPhone Developer: TE HUI (4EYA86V3Q7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TE HUI (4EYA86V3Q7)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
 				INFOPLIST_FILE = yunzi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -801,7 +801,7 @@
 					"$(PROJECT_DIR)/yunzi/ThirdParty/SBK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "78b51a6d-729b-4d65-961e-c40bea58c983";
+				PROVISIONING_PROFILE = "96595369-2e3e-445c-8925-5d355bdbd520";
 			};
 			name = Release;
 		};
