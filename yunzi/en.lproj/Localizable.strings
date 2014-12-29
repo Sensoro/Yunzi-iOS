@@ -33,10 +33,13 @@
 "Normal" = "Normal";
 
 "Move Count" = "Move Count";
-"Accelerometer Count" = "Accelerometer Count";
+"Accelerometer Count" = "Move Count";
 
 "Close" = "Close";
 
 "Hardware" = "Hardware";
 "Firmware" = "Firmware";
 "Battery" = "Battery";
+
+"TransmitPower" = "TransmitPower";
+"BroadcastInterval" = "BroadcastInterval";

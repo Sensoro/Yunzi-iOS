@@ -217,7 +217,7 @@
         [view addSubview:label];
     }
     
-
+    
 }
 
 - (void)configMenu

@@ -6,35 +6,89 @@
 //  Copyright (c) 2014 Sensoro Inc. All rights reserved.
 //
 
-
 /**
  *  Constants to indicate radio transmit power level.
+
+ *  For Yunzi (A0):
+    * SBKBeaconTransmitPowerMin,
+    * SBKBeaconTransmitPowerMedium,
+    * SBKBeaconTransmitPowerMax
+
+ *  For Yunzi (B0):
+    * SBKBeaconTransmitPowerLevel0
+    * SBKBeaconTransmitPowerLevel1
+    * SBKBeaconTransmitPowerLevel2
+    * SBKBeaconTransmitPowerLevel3
+    * SBKBeaconTransmitPowerLevel4
+    * SBKBeaconTransmitPowerLevel5
+    * SBKBeaconTransmitPowerLevel6
+    * SBKBeaconTransmitPowerLevel7
+
+ *  You also can set SBKBeaconTransmitPowerLevel0 ~ SBKBeaconTransmitPowerLevel7 to Yunzi (A0), In this case SBKBeaconTransmitPowerLevel0 is equal to SBKBeaconTransmitPowerMin, SBKBeaconTransmitPowerLevel7 is equal SBKBeaconTransmitPowerMax, other is equal SBKBeaconTransmitPowerMedium
+ *  You also can set SBKBeaconTransmitPowerMin ~ SBKBeaconTransmitPowerMax to B0, In this case SBKBeaconTransmitPowerMin is equal SBKBeaconTransmitPowerLevel0, SBKBeaconTransmitPowerMax is equal SBKBeaconTransmitPowerLevel7. SBKBeaconTransmitPowerMedium is equal SBKBeaconTransmitPowerLevel4.
  */
 typedef NS_ENUM(int, SBKBeaconTransmitPower) {
     /**
      *  The level is unknown.
      */
     SBKBeaconTransmitPowerUnknown = 0,
+    
+    /**
+     *  power level Leve0.
+     */
+    SBKBeaconTransmitPowerLevel0,
+    /**
+     *  power level Leve1.
+     */
+    SBKBeaconTransmitPowerLevel1,
+    /**
+     *  power level Leve2.
+     */
+    SBKBeaconTransmitPowerLevel2,
+    /**
+     *  power level Leve3.
+     */
+    SBKBeaconTransmitPowerLevel3,
+    /**
+     *  power level Leve4.
+     */
+    SBKBeaconTransmitPowerLevel4,
+    /**
+     *  power level Leve5.
+     */
+    SBKBeaconTransmitPowerLevel5,
+    /**
+     *  power level Leve6.
+     */
+    SBKBeaconTransmitPowerLevel6,
+    /**
+     *  power level Leve7.
+     */
+    SBKBeaconTransmitPowerLevel7,
+    
     /**
      *  Minimum transmit power level.
      */
-    SBKBeaconTransmitPowerMin,
+    SBKBeaconTransmitPowerMin = SBKBeaconTransmitPowerLevel0,
     /**
      *  Low transmit power level.
      */
-    SBKBeaconTransmitPowerLow,
+    SBKBeaconTransmitPowerLow = SBKBeaconTransmitPowerLevel2,
     /**
      *  Medium transmit power level. This is the default value.
      */
-    SBKBeaconTransmitPowerMedium,
+    SBKBeaconTransmitPowerMedium = SBKBeaconTransmitPowerLevel4,
     /**
      *  High transmit power level.
      */
-    SBKBeaconTransmitPowerHigh,
+    SBKBeaconTransmitPowerHigh = SBKBeaconTransmitPowerLevel6,
     /**
      *  Maximum transmit power level.
      */
-    SBKBeaconTransmitPowerMax
+    SBKBeaconTransmitPowerMax = SBKBeaconTransmitPowerLevel7
+    
+    
+    
 };
 
 #define SBKBeaconTransmitPowerDefault SBKBeaconTransmitPowerMedium
@@ -207,3 +261,33 @@ typedef NS_OPTIONS(int, SBKBeaconSecureBroadcastInterval) {
      */
     SBKBeaconSecureBroadcastInterval_30days = 0x06,
 };
+
+/**
+ * Constants to indicate work model of a beacon.
+ */
+typedef NS_OPTIONS(int, SBKBeaconWorkMode) {
+    /**
+     *  THe work mode is unknown.
+     */
+    SBKBeaconWorkModeUnknown = -1,
+    /**
+     *  THe work model is mode 1 of a beacon B0 ( frimware version after 3.0 (include)) or A0
+     */
+    SBKBeaconWorkMode1 = 0x01,
+    /**
+     *  THe work mode is mode 2 of a beacon B0 ( frimware version after 3.0 (include)).
+     */
+    SBKBeaconWorkMode2 = 0x02,
+    /**
+     *  THe work mode is mode 3 of a beacon B0 ( frimware version after 3.0 (include)). or B0 (firmware version before 2.3 (include))
+     */
+    SBKBeaconWorkMode3 = 0x03,
+    /**
+     *  THe work mode is mode 4 of a beacon B0 ( frimware version after 3.0 (include)).
+     */
+    SBKBeaconWorkMode4 = 0x04,
+};
+
+
+
+

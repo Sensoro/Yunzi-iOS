@@ -40,3 +40,6 @@
 "Hardware" = "型号";
 "Firmware" = "固件";
 "Battery" = "电池";
+
+"TransmitPower" = "广播功率";
+"BroadcastInterval" = "广播频率";
