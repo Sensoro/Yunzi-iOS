@@ -1,64 +1,66 @@
-#云子示例应用介绍
+#Introduction to Yunzi App
+======
+“Yunzi” App is a mobile application that provides developer first-hand experience on Yunzi’s sensory functionality. iPhone version is available to download. You may access to the project source code on our GitHub. 
 
 
-“云子”示例应用，是一款帮助开发者体验云子传感器功能的手机客户端。目前支持iPhone版，你可以在我们的Github上找到对应的项目源码。
-
-“云子”，基于SBK（Sensoro Beacon Kit）开发，需要在Xcode6、iOS8版本SDK下编译运行，支持iOS7.0及以上版本。
+	“Yunzi” App, developed on the basis of SBK (Sensoro Beacon Kit), requires to run and compile with Xcode 6 and iOS 8 SDK. It is compatible with iOS 7.0 mobile operating system or above. 
 
 
-###主要功能：
+**Main functions:**
 
-####云子列表与搜索
-显示周围云子的SN与ID，SN与ID和云子传感器对应的贴纸一致，可以通过搜索的方式找到指定的云子。
+###I. Device list and search
+The list indicates the SN and ID of circumjacent Yunzi, which are accordant with the ones on Yunzi’s printed stickers. You may also find the designated Yunzi through search function. 
 
-![](./png/1.PNG)
+![](./png/1.PNG =270x480)
 
-####系统权限验证  
-因为云子是一款基于iBeacon的智能传感器，所以需要使用iBeacon对应所需的系统权限，包括定位服务，和系统蓝牙。
+###II. System privilege validation
+Since Yunzi is a smart sensor built on iBeacon technology, it will require corresponding system privileges including location based services and authorization for the system Bluetooth. 
 
-![](./png/0.PNG)
+![](./png/0.PNG =270x480)
 
-####云子功能与特点
-“云子”的功能主要涵盖：
-（1）iBeacon的RSSI值（信号强度），accuracy（距离），proximity（范围）。
-（2）传感器：温度，光线，加速度传感器。
-（3）利用云子可实现的功能及场景：距离、范围、光线、温度、移动、推送等。
+###III. Functions and features of Yunzi
+“Yunzi” App’s main functions include:
 
-![](./png/2.PNG)
+	(1)	RSSI (signal intensity), distance，proximity based on iBeacon;
+	(2)	Sensors: temperature, light sensors and accelerometer;
+	(3)	Practical use scenarios and functions achieved with Yunzi: distance and proximity detection,  light, temperature and motion sensing, push notifications, etc. 
 
-####距离
-当距云子的距离发生变化，页面会显示使用者距离云子的距离。
+![](./png/2.PNG =270x480)
 
-![](./png/3.PNG)
-![](./png/4.PNG)
+#####1.Distance
+The App will indicate the distance between Yunzi and the user if their relative position has altered.
 
-#####范围
-当距云子的距离发生变化，使用者所处的位置可能会发生变化。每个云子定义了四种范围状态“很近”、“较近”、“较远”、“未知”。
+![](./png/3.PNG =270x480)
+![](./png/4.PNG =270x480)
 
-![](./png/5.PNG)
-![](./png/6.PNG)
-![](./png/7.PNG)
-#####光线
-将云子的光线传感器开启，中心颜色会随着光线变化而变化。
+#####2.Proximity
+For proximity levels are defined to describe the distance between Yunzi and a user - immediate, near, far and unknown. The app will indicate user’s relative location when his/her distance to certain Yunzi has been changed. 
+
+
+![](./png/5.PNG =270x480)
+![](./png/6.PNG =270x480)
+![](./png/7.PNG =270x480)
+#####3.Light
+Switched on Yunzi’s light sensor, the color of the circular indicator will change according to the ambient light condition. 
 	
-![](./png/8.PNG)
-![](./png/9.PNG)
-![](./png/10.PNG)
-#####温度
-将云子的温度传感器开启，云子芯片温度变化，页面背景会随着温度变化而变化。
+![](./png/8.PNG =270x480)
+![](./png/9.PNG =270x480)
+![](./png/10.PNG =270x480)
+#####4.Temperature
+With the temperature sensor on, the temperature of Yunzi’s chip leads to the color change of the page background. 
 
-![](./png/11.PNG)
-![](./png/12.PNG)
-#####移动
-将云子的加速度传感器开启，当云子移动时，地球会转动；当云子停止移动时，计数器会加1。
+![](./png/11.PNG =270x480)
+![](./png/12.PNG =270x480)
+#####5.Move
+When the accelerometer is enabled, Yunzi’s movement will trigger the animation that the earth icon starts to rotate; as the counter adds 1 when the movement is ended. 
 	
-![](./png/13.PNG)
-#####推送
-当进入或者离开云子传感器时，依据传感器可将“云子”应用唤醒。“云子”应用会根据传感器的配置，判断是否需要生成一个推送提示。
+![](./png/13.PNG =270x480)
+#####6.Push notifications
+The presence and disappearance of a smart device at Yunzi’s signal coverage area is capable to waken the “Yunzi" App according to the sensor’s feedbacks. “Yunzi" App will judge whether a push notification should be generated or not according to the sensor configurations. 
 
-![](./png/14.PNG)
-![](./png/15.PNG)
-![](./png/16.PNG)
+![](./png/14.PNG =270x480)
+![](./png/15.PNG =270x480)
+![](./png/16.PNG =270x480)
 
 License
 =======
