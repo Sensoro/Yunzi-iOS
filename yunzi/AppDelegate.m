@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 #import "HomeViewController.h"
 #import "CheckViewController.h"
+#import "SBKBeacon.h"
+#import "SBKBeaconManager.h"
+#import "SBKBeaconManager+Cloud.h"
+
 
 @interface AppDelegate ()<CBCentralManagerDelegate>
 @property(strong, nonatomic)HomeViewController * homeVC;
@@ -50,6 +54,12 @@
                                                wakeUpApplication:NO];
     [[SBKBeaconManager sharedInstance] requestAlwaysAuthorization];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(beacon:) name:SBKBeaconInRangeStatusUpdatedNotification object:nil];
+    NSLog(@"%d",[[SBKBeaconManager sharedInstance] respondsToSelector:@selector(setCloudServiceEnable:)]);
+ 
+    [[SBKBeaconManager sharedInstance]addBroadcastKey:@"7b4b5ff594fdaf8f9fc7f2b494e400016f461205"];
+    [[SBKBeaconManager sharedInstance] setCloudServiceEnable:YES];
+    
+
     
     return YES;
 }

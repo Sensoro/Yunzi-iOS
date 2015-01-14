@@ -80,6 +80,7 @@
 //SBK
 #import "SBKBeacon.h"
 #import "SBKBeaconManager.h"
+#import "SBKBeaconManager+Cloud.h"
 
 //TitleView
 #import "TitleView.h"

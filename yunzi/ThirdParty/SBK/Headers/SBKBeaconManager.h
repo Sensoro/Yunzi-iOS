@@ -86,7 +86,7 @@
  *
  *  @param secretInfo the secret info.
  */
-- (BOOL)addSecretInfo:(NSString *)secretInfo;
+- (BOOL)addBroadcastKey:(NSString *)secretInfo;
 
 /**
  *  The set of SBKBeaconID currently being ranged.

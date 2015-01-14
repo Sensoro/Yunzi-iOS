@@ -16,7 +16,6 @@
 		4E19F37119E9341500486365 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F33719E9341400486365 /* NSString+FontAwesome.m */; };
 		4E19F37219E9341500486365 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E19F33919E9341400486365 /* FontAwesome.ttf */; };
 		4E19F37319E9341500486365 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F33B19E9341400486365 /* UIFont+FontAwesome.m */; };
-		4E19F37519E9341500486365 /* libSensoroBeaconKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E19F34619E9341400486365 /* libSensoroBeaconKit.a */; };
 		4E19F37619E9341500486365 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F34919E9341400486365 /* MKAnnotationView+WebCache.m */; };
 		4E19F37719E9341500486365 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F34B19E9341400486365 /* NSData+ImageContentType.m */; };
 		4E19F37819E9341500486365 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F34D19E9341400486365 /* SDImageCache.m */; };
@@ -40,6 +39,31 @@
 		4E19F39519EB84DA00486365 /* YunziItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F39419EB84DA00486365 /* YunziItemView.m */; };
 		4E19F39919ECF6F100486365 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F39819ECF6F100486365 /* TitleView.m */; };
 		4E19F39D19ECFE9300486365 /* YunziViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F39C19ECFE9300486365 /* YunziViewController.m */; };
+		4E5AFB131A65167B0096B5EA /* SBKBeaconCompletionBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAEF1A65167B0096B5EA /* SBKBeaconCompletionBlock.html */; };
+		4E5AFB141A65167B0096B5EA /* SBKBeacon.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF11A65167B0096B5EA /* SBKBeacon.html */; };
+		4E5AFB151A65167B0096B5EA /* SBKBeaconID.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF21A65167B0096B5EA /* SBKBeaconID.html */; };
+		4E5AFB161A65167B0096B5EA /* SBKBeaconManager.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF31A65167B0096B5EA /* SBKBeaconManager.html */; };
+		4E5AFB171A65167B0096B5EA /* SBKBeaconAccelerometerSensitivity.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF51A65167B0096B5EA /* SBKBeaconAccelerometerSensitivity.html */; };
+		4E5AFB181A65167B0096B5EA /* SBKBeaconAdvertisingInterval.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF61A65167B0096B5EA /* SBKBeaconAdvertisingInterval.html */; };
+		4E5AFB191A65167B0096B5EA /* SBKBeaconConnectionStatus.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF71A65167B0096B5EA /* SBKBeaconConnectionStatus.html */; };
+		4E5AFB1A1A65167B0096B5EA /* SBKBeaconEnergySavingMode.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF81A65167B0096B5EA /* SBKBeaconEnergySavingMode.html */; };
+		4E5AFB1B1A65167B0096B5EA /* SBKBeaconSecureBroadcastInterval.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF91A65167B0096B5EA /* SBKBeaconSecureBroadcastInterval.html */; };
+		4E5AFB1C1A65167B0096B5EA /* SBKBeaconTransmitPower.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAFA1A65167B0096B5EA /* SBKBeaconTransmitPower.html */; };
+		4E5AFB1D1A65167B0096B5EA /* SBKBeaconWorkMode.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAFB1A65167B0096B5EA /* SBKBeaconWorkMode.html */; };
+		4E5AFB1E1A65167B0096B5EA /* SBKBeaconWritePermissionStatus.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAFC1A65167B0096B5EA /* SBKBeaconWritePermissionStatus.html */; };
+		4E5AFB1F1A65167B0096B5EA /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAFE1A65167B0096B5EA /* styles.css */; };
+		4E5AFB201A65167B0096B5EA /* stylesPrint.css in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAFF1A65167B0096B5EA /* stylesPrint.css */; };
+		4E5AFB211A65167B0096B5EA /* hierarchy.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB001A65167B0096B5EA /* hierarchy.html */; };
+		4E5AFB221A65167B0096B5EA /* button_bar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB021A65167B0096B5EA /* button_bar_background.png */; };
+		4E5AFB231A65167B0096B5EA /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB031A65167B0096B5EA /* disclosure.png */; };
+		4E5AFB241A65167B0096B5EA /* disclosure_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB041A65167B0096B5EA /* disclosure_open.png */; };
+		4E5AFB251A65167B0096B5EA /* library_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB051A65167B0096B5EA /* library_background.png */; };
+		4E5AFB261A65167B0096B5EA /* title_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB061A65167B0096B5EA /* title_background.png */; };
+		4E5AFB271A65167B0096B5EA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB071A65167B0096B5EA /* index.html */; };
+		4E5AFB281A65167B0096B5EA /* SBKBeaconDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB091A65167B0096B5EA /* SBKBeaconDelegate.html */; };
+		4E5AFB291A65167B0096B5EA /* SBKBeaconManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB0A1A65167B0096B5EA /* SBKBeaconManagerDelegate.html */; };
+		4E5AFB2F1A65306E0096B5EA /* libSensoroBeaconKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5AFB111A65167B0096B5EA /* libSensoroBeaconKit.a */; };
+		4E5AFB301A65306E0096B5EA /* libSensoroCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5AFB121A65167B0096B5EA /* libSensoroCloud.a */; };
 		4EDD70A019EE6C870080C8DC /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD708519EE6C870080C8DC /* LightViewController.m */; };
 		4EDD70A119EE6C870080C8DC /* MoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD708919EE6C870080C8DC /* MoveViewController.m */; };
 		4EDD70B419EE6C870080C8DC /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD709F19EE6C870080C8DC /* TemperatureViewController.m */; };
@@ -91,12 +115,6 @@
 		4E19F33919E9341400486365 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		4E19F33A19E9341400486365 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
 		4E19F33B19E9341400486365 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
-		4E19F34119E9341400486365 /* SBKBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKBeacon.h; sourceTree = "<group>"; };
-		4E19F34219E9341400486365 /* SBKBeaconID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKBeaconID.h; sourceTree = "<group>"; };
-		4E19F34319E9341400486365 /* SBKBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKBeaconManager.h; sourceTree = "<group>"; };
-		4E19F34419E9341400486365 /* SBKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKConstants.h; sourceTree = "<group>"; };
-		4E19F34519E9341400486365 /* SBKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKError.h; sourceTree = "<group>"; };
-		4E19F34619E9341400486365 /* libSensoroBeaconKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSensoroBeaconKit.a; sourceTree = "<group>"; };
 		4E19F34819E9341400486365 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		4E19F34919E9341400486365 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		4E19F34A19E9341400486365 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -145,6 +163,37 @@
 		4E19F39819ECF6F100486365 /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
 		4E19F39B19ECFE9300486365 /* YunziViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunziViewController.h; sourceTree = "<group>"; };
 		4E19F39C19ECFE9300486365 /* YunziViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunziViewController.m; sourceTree = "<group>"; };
+		4E5AFAEF1A65167B0096B5EA /* SBKBeaconCompletionBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconCompletionBlock.html; sourceTree = "<group>"; };
+		4E5AFAF11A65167B0096B5EA /* SBKBeacon.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeacon.html; sourceTree = "<group>"; };
+		4E5AFAF21A65167B0096B5EA /* SBKBeaconID.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconID.html; sourceTree = "<group>"; };
+		4E5AFAF31A65167B0096B5EA /* SBKBeaconManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconManager.html; sourceTree = "<group>"; };
+		4E5AFAF51A65167B0096B5EA /* SBKBeaconAccelerometerSensitivity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconAccelerometerSensitivity.html; sourceTree = "<group>"; };
+		4E5AFAF61A65167B0096B5EA /* SBKBeaconAdvertisingInterval.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconAdvertisingInterval.html; sourceTree = "<group>"; };
+		4E5AFAF71A65167B0096B5EA /* SBKBeaconConnectionStatus.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconConnectionStatus.html; sourceTree = "<group>"; };
+		4E5AFAF81A65167B0096B5EA /* SBKBeaconEnergySavingMode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconEnergySavingMode.html; sourceTree = "<group>"; };
+		4E5AFAF91A65167B0096B5EA /* SBKBeaconSecureBroadcastInterval.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconSecureBroadcastInterval.html; sourceTree = "<group>"; };
+		4E5AFAFA1A65167B0096B5EA /* SBKBeaconTransmitPower.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconTransmitPower.html; sourceTree = "<group>"; };
+		4E5AFAFB1A65167B0096B5EA /* SBKBeaconWorkMode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconWorkMode.html; sourceTree = "<group>"; };
+		4E5AFAFC1A65167B0096B5EA /* SBKBeaconWritePermissionStatus.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconWritePermissionStatus.html; sourceTree = "<group>"; };
+		4E5AFAFE1A65167B0096B5EA /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		4E5AFAFF1A65167B0096B5EA /* stylesPrint.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stylesPrint.css; sourceTree = "<group>"; };
+		4E5AFB001A65167B0096B5EA /* hierarchy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hierarchy.html; sourceTree = "<group>"; };
+		4E5AFB021A65167B0096B5EA /* button_bar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bar_background.png; sourceTree = "<group>"; };
+		4E5AFB031A65167B0096B5EA /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure.png; sourceTree = "<group>"; };
+		4E5AFB041A65167B0096B5EA /* disclosure_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure_open.png; sourceTree = "<group>"; };
+		4E5AFB051A65167B0096B5EA /* library_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library_background.png; sourceTree = "<group>"; };
+		4E5AFB061A65167B0096B5EA /* title_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_background.png; sourceTree = "<group>"; };
+		4E5AFB071A65167B0096B5EA /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4E5AFB091A65167B0096B5EA /* SBKBeaconDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconDelegate.html; sourceTree = "<group>"; };
+		4E5AFB0A1A65167B0096B5EA /* SBKBeaconManagerDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SBKBeaconManagerDelegate.html; sourceTree = "<group>"; };
+		4E5AFB0C1A65167B0096B5EA /* SBKBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKBeacon.h; sourceTree = "<group>"; };
+		4E5AFB0D1A65167B0096B5EA /* SBKBeaconID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKBeaconID.h; sourceTree = "<group>"; };
+		4E5AFB0E1A65167B0096B5EA /* SBKBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKBeaconManager.h; sourceTree = "<group>"; };
+		4E5AFB0F1A65167B0096B5EA /* SBKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKConstants.h; sourceTree = "<group>"; };
+		4E5AFB101A65167B0096B5EA /* SBKUnitConvertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKUnitConvertHelper.h; sourceTree = "<group>"; };
+		4E5AFB111A65167B0096B5EA /* libSensoroBeaconKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSensoroBeaconKit.a; sourceTree = "<group>"; };
+		4E5AFB121A65167B0096B5EA /* libSensoroCloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSensoroCloud.a; sourceTree = "<group>"; };
+		4E5AFB2E1A6518280096B5EA /* SBKBeaconManager+Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SBKBeaconManager+Cloud.h"; sourceTree = "<group>"; };
 		4EDD708419EE6C870080C8DC /* LightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightViewController.h; sourceTree = "<group>"; };
 		4EDD708519EE6C870080C8DC /* LightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightViewController.m; sourceTree = "<group>"; };
 		4EDD708819EE6C870080C8DC /* MoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveViewController.h; sourceTree = "<group>"; };
@@ -195,8 +244,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5AFB2F1A65306E0096B5EA /* libSensoroBeaconKit.a in Frameworks */,
+				4E5AFB301A65306E0096B5EA /* libSensoroCloud.a in Frameworks */,
 				4EDD710D19EFD4EE0080C8DC /* MapKit.framework in Frameworks */,
-				4E19F37519E9341500486365 /* libSensoroBeaconKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +314,11 @@
 		4E19F32D19E9341400486365 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				4E5AFAEB1A65167B0096B5EA /* SBK */,
 				4EDD70B519EE6F600080C8DC /* EarthLoadingView */,
 				4E19F39619ECF6F100486365 /* TitleView */,
 				4E19F32E19E9341400486365 /* Category */,
 				4E19F33319E9341400486365 /* FontAwesome */,
-				4E19F33F19E9341400486365 /* SBK */,
 				4E19F34719E9341400486365 /* SDWebImage */,
 				4E19F36919E9341400486365 /* SVProgressHUD */,
 			);
@@ -306,27 +356,6 @@
 				4E19F33919E9341400486365 /* FontAwesome.ttf */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		4E19F33F19E9341400486365 /* SBK */ = {
-			isa = PBXGroup;
-			children = (
-				4E19F34019E9341400486365 /* Headers */,
-				4E19F34619E9341400486365 /* libSensoroBeaconKit.a */,
-			);
-			path = SBK;
-			sourceTree = "<group>";
-		};
-		4E19F34019E9341400486365 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				4E19F34119E9341400486365 /* SBKBeacon.h */,
-				4E19F34219E9341400486365 /* SBKBeaconID.h */,
-				4E19F34319E9341400486365 /* SBKBeaconManager.h */,
-				4E19F34419E9341400486365 /* SBKConstants.h */,
-				4E19F34519E9341400486365 /* SBKError.h */,
-			);
-			path = Headers;
 			sourceTree = "<group>";
 		};
 		4E19F34719E9341400486365 /* SDWebImage */ = {
@@ -409,6 +438,116 @@
 				4E19F39C19ECFE9300486365 /* YunziViewController.m */,
 			);
 			path = YunziViewController;
+			sourceTree = "<group>";
+		};
+		4E5AFAEB1A65167B0096B5EA /* SBK */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AFAEC1A65167B0096B5EA /* Documents */,
+				4E5AFB0B1A65167B0096B5EA /* Headers */,
+				4E5AFB111A65167B0096B5EA /* libSensoroBeaconKit.a */,
+				4E5AFB121A65167B0096B5EA /* libSensoroCloud.a */,
+			);
+			path = SBK;
+			sourceTree = "<group>";
+		};
+		4E5AFAEC1A65167B0096B5EA /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AFAED1A65167B0096B5EA /* html */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		4E5AFAED1A65167B0096B5EA /* html */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AFAEE1A65167B0096B5EA /* Blocks */,
+				4E5AFAF01A65167B0096B5EA /* Classes */,
+				4E5AFAF41A65167B0096B5EA /* Constants */,
+				4E5AFAFD1A65167B0096B5EA /* css */,
+				4E5AFB001A65167B0096B5EA /* hierarchy.html */,
+				4E5AFB011A65167B0096B5EA /* img */,
+				4E5AFB071A65167B0096B5EA /* index.html */,
+				4E5AFB081A65167B0096B5EA /* Protocols */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		4E5AFAEE1A65167B0096B5EA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AFAEF1A65167B0096B5EA /* SBKBeaconCompletionBlock.html */,
+			);
+			path = Blocks;
+			sourceTree = "<group>";
+		};
+		4E5AFAF01A65167B0096B5EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AFAF11A65167B0096B5EA /* SBKBeacon.html */,
+				4E5AFAF21A65167B0096B5EA /* SBKBeaconID.html */,
+				4E5AFAF31A65167B0096B5EA /* SBKBeaconManager.html */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4E5AFAF41A65167B0096B5EA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AFAF51A65167B0096B5EA /* SBKBeaconAccelerometerSensitivity.html */,
+				4E5AFAF61A65167B0096B5EA /* SBKBeaconAdvertisingInterval.html */,
+				4E5AFAF71A65167B0096B5EA /* SBKBeaconConnectionStatus.html */,
+				4E5AFAF81A65167B0096B5EA /* SBKBeaconEnergySavingMode.html */,
+				4E5AFAF91A65167B0096B5EA /* SBKBeaconSecureBroadcastInterval.html */,
+				4E5AFAFA1A65167B0096B5EA /* SBKBeaconTransmitPower.html */,
+				4E5AFAFB1A65167B0096B5EA /* SBKBeaconWorkMode.html */,
+				4E5AFAFC1A65167B0096B5EA /* SBKBeaconWritePermissionStatus.html */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4E5AFAFD1A65167B0096B5EA /* css */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AFAFE1A65167B0096B5EA /* styles.css */,
+				4E5AFAFF1A65167B0096B5EA /* stylesPrint.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		4E5AFB011A65167B0096B5EA /* img */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AFB021A65167B0096B5EA /* button_bar_background.png */,
+				4E5AFB031A65167B0096B5EA /* disclosure.png */,
+				4E5AFB041A65167B0096B5EA /* disclosure_open.png */,
+				4E5AFB051A65167B0096B5EA /* library_background.png */,
+				4E5AFB061A65167B0096B5EA /* title_background.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		4E5AFB081A65167B0096B5EA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AFB091A65167B0096B5EA /* SBKBeaconDelegate.html */,
+				4E5AFB0A1A65167B0096B5EA /* SBKBeaconManagerDelegate.html */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4E5AFB0B1A65167B0096B5EA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AFB2E1A6518280096B5EA /* SBKBeaconManager+Cloud.h */,
+				4E5AFB0C1A65167B0096B5EA /* SBKBeacon.h */,
+				4E5AFB0D1A65167B0096B5EA /* SBKBeaconID.h */,
+				4E5AFB0E1A65167B0096B5EA /* SBKBeaconManager.h */,
+				4E5AFB0F1A65167B0096B5EA /* SBKConstants.h */,
+				4E5AFB101A65167B0096B5EA /* SBKUnitConvertHelper.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		4EDD708319EE6C870080C8DC /* LightViewController */ = {
@@ -588,32 +727,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5AFB1A1A65167B0096B5EA /* SBKBeaconEnergySavingMode.html in Resources */,
 				4EDD70D219EE6F600080C8DC /* earth-15.png in Resources */,
+				4E5AFB261A65167B0096B5EA /* title_background.png in Resources */,
+				4E5AFB141A65167B0096B5EA /* SBKBeacon.html in Resources */,
+				4E5AFB221A65167B0096B5EA /* button_bar_background.png in Resources */,
 				4EDD70D319EE6F600080C8DC /* earth-16.png in Resources */,
 				4EDD70CD19EE6F600080C8DC /* earth-10.png in Resources */,
+				4E5AFB1C1A65167B0096B5EA /* SBKBeaconTransmitPower.html in Resources */,
+				4E5AFB1D1A65167B0096B5EA /* SBKBeaconWorkMode.html in Resources */,
 				4EDD70F819EE8E3D0080C8DC /* InfoPlist.strings in Resources */,
+				4E5AFB1E1A65167B0096B5EA /* SBKBeaconWritePermissionStatus.html in Resources */,
+				4E5AFB161A65167B0096B5EA /* SBKBeaconManager.html in Resources */,
+				4E5AFB281A65167B0096B5EA /* SBKBeaconDelegate.html in Resources */,
+				4E5AFB131A65167B0096B5EA /* SBKBeaconCompletionBlock.html in Resources */,
 				4EDD70D819EE6F600080C8DC /* earth-4.png in Resources */,
+				4E5AFB251A65167B0096B5EA /* library_background.png in Resources */,
 				4EDD70D919EE6F600080C8DC /* earth-5.png in Resources */,
 				4EDD70D519EE6F600080C8DC /* earth-18.png in Resources */,
+				4E5AFB191A65167B0096B5EA /* SBKBeaconConnectionStatus.html in Resources */,
 				4EDD70CC19EE6F600080C8DC /* earth-1.png in Resources */,
 				4EDD70D719EE6F600080C8DC /* earth-3.png in Resources */,
 				4EDD70CE19EE6F600080C8DC /* earth-11.png in Resources */,
+				4E5AFB291A65167B0096B5EA /* SBKBeaconManagerDelegate.html in Resources */,
 				4E19F31419E930CC00486365 /* Images.xcassets in Resources */,
 				4EDD70EB19EE8C7A0080C8DC /* Localizable.strings in Resources */,
 				4EDD70D019EE6F600080C8DC /* earth-13.png in Resources */,
 				4EDD70DD19EE6F600080C8DC /* earth-9.png in Resources */,
 				4EDD70E219EE747A0080C8DC /* green@2x.png in Resources */,
+				4E5AFB241A65167B0096B5EA /* disclosure_open.png in Resources */,
 				4EDD70DB19EE6F600080C8DC /* earth-7.png in Resources */,
+				4E5AFB181A65167B0096B5EA /* SBKBeaconAdvertisingInterval.html in Resources */,
 				4EDD70E419EE747A0080C8DC /* yellow@2x.png in Resources */,
+				4E5AFB1B1A65167B0096B5EA /* SBKBeaconSecureBroadcastInterval.html in Resources */,
 				4EDD70E319EE747A0080C8DC /* red@2x.png in Resources */,
 				4EDD70D119EE6F600080C8DC /* earth-14.png in Resources */,
 				4EDD70D419EE6F600080C8DC /* earth-17.png in Resources */,
+				4E5AFB1F1A65167B0096B5EA /* styles.css in Resources */,
+				4E5AFB271A65167B0096B5EA /* index.html in Resources */,
 				4E19F38619E9341500486365 /* SVProgressHUD.bundle in Resources */,
+				4E5AFB151A65167B0096B5EA /* SBKBeaconID.html in Resources */,
+				4E5AFB171A65167B0096B5EA /* SBKBeaconAccelerometerSensitivity.html in Resources */,
 				4EDD70DC19EE6F600080C8DC /* earth-8.png in Resources */,
+				4E5AFB211A65167B0096B5EA /* hierarchy.html in Resources */,
 				4EDD70D619EE6F600080C8DC /* earth-2.png in Resources */,
+				4E5AFB231A65167B0096B5EA /* disclosure.png in Resources */,
 				4EDD70CF19EE6F600080C8DC /* earth-12.png in Resources */,
 				4E19F37219E9341500486365 /* FontAwesome.ttf in Resources */,
 				4EDD70DA19EE6F600080C8DC /* earth-6.png in Resources */,
+				4E5AFB201A65167B0096B5EA /* stylesPrint.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,6 +888,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PROVISIONING_PROFILE = "817d37e2-ca8b-4df1-b96b-e545cc16386b";
 				SDKROOT = iphoneos;
 			};
@@ -761,6 +924,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PROVISIONING_PROFILE = "817d37e2-ca8b-4df1-b96b-e545cc16386b";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -770,10 +934,11 @@
 		4E19F32719E930CC00486365 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: TE HUI (A5Y9CLHH49)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TE HUI (A5Y9CLHH49)";
 				INFOPLIST_FILE = yunzi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -781,18 +946,23 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/yunzi/ThirdParty/SBK",
 				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "96595369-2e3e-445c-8925-5d355bdbd520";
+				PROVISIONING_PROFILE = "16d18dd0-16d0-49ea-a74e-4434192b0fea";
 			};
 			name = Debug;
 		};
 		4E19F32819E930CC00486365 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: TE HUI (A5Y9CLHH49)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TE HUI (A5Y9CLHH49)";
 				INFOPLIST_FILE = yunzi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -800,8 +970,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/yunzi/ThirdParty/SBK",
 				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "96595369-2e3e-445c-8925-5d355bdbd520";
+				PROVISIONING_PROFILE = "16d18dd0-16d0-49ea-a74e-4434192b0fea";
 			};
 			name = Release;
 		};

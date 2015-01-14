@@ -10,9 +10,9 @@
  *  Constants to indicate radio transmit power level.
 
  *  For Yunzi (A0):
-    * SBKBeaconTransmitPowerMin,
-    * SBKBeaconTransmitPowerMedium,
-    * SBKBeaconTransmitPowerMax
+    * SBKBeaconTransmitPowerLevel0, instead of SBKBeaconTransmitPowerMin
+    * SBKBeaconTransmitPowerLevel1, instead of SBKBeaconTransmitPowerMedium
+    * SBKBeaconTransmitPowerLevel2, instead of SBKBeaconTransmitPowerMax
 
  *  For Yunzi (B0):
     * SBKBeaconTransmitPowerLevel0
@@ -23,75 +23,101 @@
     * SBKBeaconTransmitPowerLevel5
     * SBKBeaconTransmitPowerLevel6
     * SBKBeaconTransmitPowerLevel7
+ 
+ *  For Yunzi (C0 double Antenna):
+    * SBKBeaconTransmitPowerLevel0
+    * SBKBeaconTransmitPowerLevel1
+    * SBKBeaconTransmitPowerLevel2
+    * SBKBeaconTransmitPowerLevel3
+    * SBKBeaconTransmitPowerLevel4
+    * SBKBeaconTransmitPowerLevel5
+    * SBKBeaconTransmitPowerLevel6
+    * SBKBeaconTransmitPowerLevel7
+    * SBKBeaconLowerTransmitPowerLevel0
+    * SBKBeaconLowerTransmitPowerLevel1
+    * SBKBeaconLowerTransmitPowerLevel2
+    * SBKBeaconLowerTransmitPowerLevel3
+    * SBKBeaconLowerTransmitPowerLevel4
+    * SBKBeaconLowerTransmitPowerLevel5
+    * SBKBeaconLowerTransmitPowerLevel6
+    * SBKBeaconLowerTransmitPowerLevel7
 
- *  You also can set SBKBeaconTransmitPowerLevel0 ~ SBKBeaconTransmitPowerLevel7 to Yunzi (A0), In this case SBKBeaconTransmitPowerLevel0 is equal to SBKBeaconTransmitPowerMin, SBKBeaconTransmitPowerLevel7 is equal SBKBeaconTransmitPowerMax, other is equal SBKBeaconTransmitPowerMedium
- *  You also can set SBKBeaconTransmitPowerMin ~ SBKBeaconTransmitPowerMax to B0, In this case SBKBeaconTransmitPowerMin is equal SBKBeaconTransmitPowerLevel0, SBKBeaconTransmitPowerMax is equal SBKBeaconTransmitPowerLevel7. SBKBeaconTransmitPowerMedium is equal SBKBeaconTransmitPowerLevel4.
  */
 typedef NS_ENUM(int, SBKBeaconTransmitPower) {
     /**
      *  The level is unknown.
      */
-    SBKBeaconTransmitPowerUnknown = 0,
+    SBKBeaconTransmitPowerUnknown = 0xff,
     
     /**
      *  power level Leve0.
      */
-    SBKBeaconTransmitPowerLevel0,
+    SBKBeaconTransmitPowerLevel0 = 0x00,
     /**
      *  power level Leve1.
      */
-    SBKBeaconTransmitPowerLevel1,
+    SBKBeaconTransmitPowerLevel1 = 0x01,
     /**
      *  power level Leve2.
      */
-    SBKBeaconTransmitPowerLevel2,
+    SBKBeaconTransmitPowerLevel2 = 0x02,
     /**
      *  power level Leve3.
      */
-    SBKBeaconTransmitPowerLevel3,
+    SBKBeaconTransmitPowerLevel3 = 0x03,
     /**
      *  power level Leve4.
      */
-    SBKBeaconTransmitPowerLevel4,
+    SBKBeaconTransmitPowerLevel4 = 0x04,
     /**
      *  power level Leve5.
      */
-    SBKBeaconTransmitPowerLevel5,
+    SBKBeaconTransmitPowerLevel5 = 0x05,
     /**
      *  power level Leve6.
      */
-    SBKBeaconTransmitPowerLevel6,
+    SBKBeaconTransmitPowerLevel6 = 0x06,
     /**
      *  power level Leve7.
      */
-    SBKBeaconTransmitPowerLevel7,
-    
+    SBKBeaconTransmitPowerLevel7 = 0x07,
+
     /**
-     *  Minimum transmit power level.
+     *  power level Leve0.
      */
-    SBKBeaconTransmitPowerMin = SBKBeaconTransmitPowerLevel0,
+    SBKBeaconLowerTransmitPowerLevel0 = 0x08,
     /**
-     *  Low transmit power level.
+     *  power level Leve1.
      */
-    SBKBeaconTransmitPowerLow = SBKBeaconTransmitPowerLevel2,
+    SBKBeaconLowerTransmitPowerLevel1 = 0x09,
     /**
-     *  Medium transmit power level. This is the default value.
+     *  power level Leve2.
      */
-    SBKBeaconTransmitPowerMedium = SBKBeaconTransmitPowerLevel4,
+    SBKBeaconLowerTransmitPowerLevel2 = 0x0A,
     /**
-     *  High transmit power level.
+     *  power level Leve3.
      */
-    SBKBeaconTransmitPowerHigh = SBKBeaconTransmitPowerLevel6,
+    SBKBeaconLowerTransmitPowerLevel3 = 0x0B,
     /**
-     *  Maximum transmit power level.
+     *  power level Leve4.
      */
-    SBKBeaconTransmitPowerMax = SBKBeaconTransmitPowerLevel7
-    
-    
+    SBKBeaconLowerTransmitPowerLevel4 = 0x0C,
+    /**
+     *  power level Leve5.
+     */
+    SBKBeaconLowerTransmitPowerLevel5 = 0x0D,
+    /**
+     *  power level Leve6.
+     */
+    SBKBeaconLowerTransmitPowerLevel6 = 0x0E,
+    /**
+     *  power level Leve7.
+     */
+    SBKBeaconLowerTransmitPowerLevel7 = 0x0F,
     
 };
 
-#define SBKBeaconTransmitPowerDefault SBKBeaconTransmitPowerMedium
+#define SBKBeaconTransmitPowerDefault SBKBeaconTransmitPowerLevel2
 
 /**
  *  Constants to indicate advertising interval.
@@ -152,11 +178,11 @@ typedef NS_ENUM(int, SBKBeaconAccelerometerSensitivity) {
     /**
      *  The accelerometer is unknown.
      */
-    SBKBeaconAccelerometerSensitivityUnknown = 0,
+    SBKBeaconAccelerometerSensitivityUnknown = 0xff,
     /**
      *  The accelerometer is disabled.
      */
-    SBKBeaconAccelerometerSensitivityDisabled,
+    SBKBeaconAccelerometerSensitivityDisabled = 0x00,
     /**
      *  The accelerometer sensitivity is low.
      */
@@ -198,11 +224,11 @@ typedef NS_ENUM(int, SBKBeaconWritePermissionStatus){
     /**
      *  The authorization status is unknown.
      */
-    SBKBeaconWritePermissionStatusUnknown = 0,
+    SBKBeaconWritePermissionStatusUnknown = 0xff,
     /**
      *  This application is authorized to write value to the beacon.
      */
-    SBKBeaconWritePermissionStatusAuthorized,
+    SBKBeaconWritePermissionStatusAuthorized = 0x00,
     /**
      *  This application is not authorized to write value to the beacon.
      */
@@ -235,7 +261,7 @@ typedef NS_OPTIONS(int, SBKBeaconSecureBroadcastInterval) {
     /**
      *  Do not use secure broadcast.
      */
-    SBKBeaconSecureBroadcastIntervalNone = 0,
+    SBKBeaconSecureBroadcastIntervalNone = 0x00,
     /**
      *  The secure broadcast interval is 5s.
      */
