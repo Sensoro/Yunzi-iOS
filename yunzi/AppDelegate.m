@@ -117,7 +117,10 @@
     BOOL enable=[CLLocationManager locationServicesEnabled];//定位服务是否可用
     int status=[CLLocationManager authorizationStatus];//是否具有定位权限
     if(!enable || status<3){
-        [self.locationManager requestAlwaysAuthorization];//请求权限
+        if([self.locationManager respondsToSelector:@selector(requestAlwaysAuthorization)])
+        {
+            [self.locationManager requestAlwaysAuthorization];//请求权限
+        }
         return NO;//需求请求定位权限
     }
     return YES;
