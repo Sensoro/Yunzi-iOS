@@ -39,29 +39,6 @@
 		4E19F39519EB84DA00486365 /* YunziItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F39419EB84DA00486365 /* YunziItemView.m */; };
 		4E19F39919ECF6F100486365 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F39819ECF6F100486365 /* TitleView.m */; };
 		4E19F39D19ECFE9300486365 /* YunziViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19F39C19ECFE9300486365 /* YunziViewController.m */; };
-		4E5AFB131A65167B0096B5EA /* SBKBeaconCompletionBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAEF1A65167B0096B5EA /* SBKBeaconCompletionBlock.html */; };
-		4E5AFB141A65167B0096B5EA /* SBKBeacon.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF11A65167B0096B5EA /* SBKBeacon.html */; };
-		4E5AFB151A65167B0096B5EA /* SBKBeaconID.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF21A65167B0096B5EA /* SBKBeaconID.html */; };
-		4E5AFB161A65167B0096B5EA /* SBKBeaconManager.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF31A65167B0096B5EA /* SBKBeaconManager.html */; };
-		4E5AFB171A65167B0096B5EA /* SBKBeaconAccelerometerSensitivity.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF51A65167B0096B5EA /* SBKBeaconAccelerometerSensitivity.html */; };
-		4E5AFB181A65167B0096B5EA /* SBKBeaconAdvertisingInterval.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF61A65167B0096B5EA /* SBKBeaconAdvertisingInterval.html */; };
-		4E5AFB191A65167B0096B5EA /* SBKBeaconConnectionStatus.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF71A65167B0096B5EA /* SBKBeaconConnectionStatus.html */; };
-		4E5AFB1A1A65167B0096B5EA /* SBKBeaconEnergySavingMode.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF81A65167B0096B5EA /* SBKBeaconEnergySavingMode.html */; };
-		4E5AFB1B1A65167B0096B5EA /* SBKBeaconSecureBroadcastInterval.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAF91A65167B0096B5EA /* SBKBeaconSecureBroadcastInterval.html */; };
-		4E5AFB1C1A65167B0096B5EA /* SBKBeaconTransmitPower.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAFA1A65167B0096B5EA /* SBKBeaconTransmitPower.html */; };
-		4E5AFB1D1A65167B0096B5EA /* SBKBeaconWorkMode.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAFB1A65167B0096B5EA /* SBKBeaconWorkMode.html */; };
-		4E5AFB1E1A65167B0096B5EA /* SBKBeaconWritePermissionStatus.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAFC1A65167B0096B5EA /* SBKBeaconWritePermissionStatus.html */; };
-		4E5AFB1F1A65167B0096B5EA /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAFE1A65167B0096B5EA /* styles.css */; };
-		4E5AFB201A65167B0096B5EA /* stylesPrint.css in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFAFF1A65167B0096B5EA /* stylesPrint.css */; };
-		4E5AFB211A65167B0096B5EA /* hierarchy.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB001A65167B0096B5EA /* hierarchy.html */; };
-		4E5AFB221A65167B0096B5EA /* button_bar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB021A65167B0096B5EA /* button_bar_background.png */; };
-		4E5AFB231A65167B0096B5EA /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB031A65167B0096B5EA /* disclosure.png */; };
-		4E5AFB241A65167B0096B5EA /* disclosure_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB041A65167B0096B5EA /* disclosure_open.png */; };
-		4E5AFB251A65167B0096B5EA /* library_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB051A65167B0096B5EA /* library_background.png */; };
-		4E5AFB261A65167B0096B5EA /* title_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB061A65167B0096B5EA /* title_background.png */; };
-		4E5AFB271A65167B0096B5EA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB071A65167B0096B5EA /* index.html */; };
-		4E5AFB281A65167B0096B5EA /* SBKBeaconDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB091A65167B0096B5EA /* SBKBeaconDelegate.html */; };
-		4E5AFB291A65167B0096B5EA /* SBKBeaconManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E5AFB0A1A65167B0096B5EA /* SBKBeaconManagerDelegate.html */; };
 		4E5AFB2F1A65306E0096B5EA /* libSensoroBeaconKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5AFB111A65167B0096B5EA /* libSensoroBeaconKit.a */; };
 		4E5AFB301A65306E0096B5EA /* libSensoroCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5AFB121A65167B0096B5EA /* libSensoroCloud.a */; };
 		4EDD70A019EE6C870080C8DC /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD708519EE6C870080C8DC /* LightViewController.m */; };
@@ -727,55 +704,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E5AFB1A1A65167B0096B5EA /* SBKBeaconEnergySavingMode.html in Resources */,
 				4EDD70D219EE6F600080C8DC /* earth-15.png in Resources */,
-				4E5AFB261A65167B0096B5EA /* title_background.png in Resources */,
-				4E5AFB141A65167B0096B5EA /* SBKBeacon.html in Resources */,
-				4E5AFB221A65167B0096B5EA /* button_bar_background.png in Resources */,
 				4EDD70D319EE6F600080C8DC /* earth-16.png in Resources */,
 				4EDD70CD19EE6F600080C8DC /* earth-10.png in Resources */,
-				4E5AFB1C1A65167B0096B5EA /* SBKBeaconTransmitPower.html in Resources */,
-				4E5AFB1D1A65167B0096B5EA /* SBKBeaconWorkMode.html in Resources */,
 				4EDD70F819EE8E3D0080C8DC /* InfoPlist.strings in Resources */,
-				4E5AFB1E1A65167B0096B5EA /* SBKBeaconWritePermissionStatus.html in Resources */,
-				4E5AFB161A65167B0096B5EA /* SBKBeaconManager.html in Resources */,
-				4E5AFB281A65167B0096B5EA /* SBKBeaconDelegate.html in Resources */,
-				4E5AFB131A65167B0096B5EA /* SBKBeaconCompletionBlock.html in Resources */,
 				4EDD70D819EE6F600080C8DC /* earth-4.png in Resources */,
-				4E5AFB251A65167B0096B5EA /* library_background.png in Resources */,
 				4EDD70D919EE6F600080C8DC /* earth-5.png in Resources */,
 				4EDD70D519EE6F600080C8DC /* earth-18.png in Resources */,
-				4E5AFB191A65167B0096B5EA /* SBKBeaconConnectionStatus.html in Resources */,
 				4EDD70CC19EE6F600080C8DC /* earth-1.png in Resources */,
 				4EDD70D719EE6F600080C8DC /* earth-3.png in Resources */,
 				4EDD70CE19EE6F600080C8DC /* earth-11.png in Resources */,
-				4E5AFB291A65167B0096B5EA /* SBKBeaconManagerDelegate.html in Resources */,
 				4E19F31419E930CC00486365 /* Images.xcassets in Resources */,
 				4EDD70EB19EE8C7A0080C8DC /* Localizable.strings in Resources */,
 				4EDD70D019EE6F600080C8DC /* earth-13.png in Resources */,
 				4EDD70DD19EE6F600080C8DC /* earth-9.png in Resources */,
 				4EDD70E219EE747A0080C8DC /* green@2x.png in Resources */,
-				4E5AFB241A65167B0096B5EA /* disclosure_open.png in Resources */,
 				4EDD70DB19EE6F600080C8DC /* earth-7.png in Resources */,
-				4E5AFB181A65167B0096B5EA /* SBKBeaconAdvertisingInterval.html in Resources */,
 				4EDD70E419EE747A0080C8DC /* yellow@2x.png in Resources */,
-				4E5AFB1B1A65167B0096B5EA /* SBKBeaconSecureBroadcastInterval.html in Resources */,
 				4EDD70E319EE747A0080C8DC /* red@2x.png in Resources */,
 				4EDD70D119EE6F600080C8DC /* earth-14.png in Resources */,
 				4EDD70D419EE6F600080C8DC /* earth-17.png in Resources */,
-				4E5AFB1F1A65167B0096B5EA /* styles.css in Resources */,
-				4E5AFB271A65167B0096B5EA /* index.html in Resources */,
 				4E19F38619E9341500486365 /* SVProgressHUD.bundle in Resources */,
-				4E5AFB151A65167B0096B5EA /* SBKBeaconID.html in Resources */,
-				4E5AFB171A65167B0096B5EA /* SBKBeaconAccelerometerSensitivity.html in Resources */,
 				4EDD70DC19EE6F600080C8DC /* earth-8.png in Resources */,
-				4E5AFB211A65167B0096B5EA /* hierarchy.html in Resources */,
 				4EDD70D619EE6F600080C8DC /* earth-2.png in Resources */,
-				4E5AFB231A65167B0096B5EA /* disclosure.png in Resources */,
 				4EDD70CF19EE6F600080C8DC /* earth-12.png in Resources */,
 				4E19F37219E9341500486365 /* FontAwesome.ttf in Resources */,
 				4EDD70DA19EE6F600080C8DC /* earth-6.png in Resources */,
-				4E5AFB201A65167B0096B5EA /* stylesPrint.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

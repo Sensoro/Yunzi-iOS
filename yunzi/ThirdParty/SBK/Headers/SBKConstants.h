@@ -33,14 +33,10 @@
     * SBKBeaconTransmitPowerLevel5
     * SBKBeaconTransmitPowerLevel6
     * SBKBeaconTransmitPowerLevel7
-    * SBKBeaconLowerTransmitPowerLevel0
-    * SBKBeaconLowerTransmitPowerLevel1
-    * SBKBeaconLowerTransmitPowerLevel2
-    * SBKBeaconLowerTransmitPowerLevel3
-    * SBKBeaconLowerTransmitPowerLevel4
-    * SBKBeaconLowerTransmitPowerLevel5
-    * SBKBeaconLowerTransmitPowerLevel6
-    * SBKBeaconLowerTransmitPowerLevel7
+    * SBKBeaconTransmitPowerLevel8
+    * SBKBeaconTransmitPowerLevel9
+    * SBKBeaconTransmitPowerLevel10
+    * SBKBeaconTransmitPowerLevel11
 
  */
 typedef NS_ENUM(int, SBKBeaconTransmitPower) {
@@ -83,38 +79,21 @@ typedef NS_ENUM(int, SBKBeaconTransmitPower) {
     SBKBeaconTransmitPowerLevel7 = 0x07,
 
     /**
-     *  power level Leve0.
+     *  power level Leve8.
      */
-    SBKBeaconLowerTransmitPowerLevel0 = 0x08,
+    SBKBeaconTransmitPowerLevel8 = 0x08,
     /**
-     *  power level Leve1.
+     *  power level Leve9.
      */
-    SBKBeaconLowerTransmitPowerLevel1 = 0x09,
+    SBKBeaconTransmitPowerLevel9 = 0x09,
     /**
-     *  power level Leve2.
+     *  power level Leve10.
      */
-    SBKBeaconLowerTransmitPowerLevel2 = 0x0A,
+    SBKBeaconTransmitPowerLevel10 = 0x0A,
     /**
-     *  power level Leve3.
+     *  power level Leve11.
      */
-    SBKBeaconLowerTransmitPowerLevel3 = 0x0B,
-    /**
-     *  power level Leve4.
-     */
-    SBKBeaconLowerTransmitPowerLevel4 = 0x0C,
-    /**
-     *  power level Leve5.
-     */
-    SBKBeaconLowerTransmitPowerLevel5 = 0x0D,
-    /**
-     *  power level Leve6.
-     */
-    SBKBeaconLowerTransmitPowerLevel6 = 0x0E,
-    /**
-     *  power level Leve7.
-     */
-    SBKBeaconLowerTransmitPowerLevel7 = 0x0F,
-    
+    SBKBeaconTransmitPowerLevel11 = 0x0B,
 };
 
 #define SBKBeaconTransmitPowerDefault SBKBeaconTransmitPowerLevel2
