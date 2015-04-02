@@ -48,7 +48,17 @@
     }else{
         [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert];
     }
-    
+    NSArray * supportedProximityUUIDs =
+    @[[[NSUUID alloc] initWithUUIDString:@"23A01AF0-232A-4518-9C0E-323FB773F5EF"], //Sensoro
+      [[NSUUID alloc] initWithUUIDString:@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"], //AirLocate
+      [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"] ,// Estimote
+      [[NSUUID alloc] initWithUUIDString:@"63EA09C2-5345-4E6D-9776-26B9C6FC126C"],// Random for C54
+      [[NSUUID alloc] initWithUUIDString:@"FDA50693-A4E2-4FB1-AFCF-C6EB07647825"]// weixin
+      ];
+    for (NSUUID *uuid  in supportedProximityUUIDs) {
+        SBKBeaconID *beaconId = [SBKBeaconID beaconIDWithProximityUUID:uuid];
+        [[SBKBeaconManager sharedInstance] startRangingBeaconsWithID:beaconId wakeUpApplication:NO];
+    }
     SBKBeaconID *beaconID = [SBKBeaconID beaconIDWithProximityUUID:SBKSensoroDefaultProximityUUID];
     [[SBKBeaconManager sharedInstance] startRangingBeaconsWithID:beaconID
                                                wakeUpApplication:NO];
