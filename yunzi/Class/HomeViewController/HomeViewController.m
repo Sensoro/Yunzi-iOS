@@ -181,6 +181,34 @@
 
 }
 
+- (void)beaconManager:(SBKBeaconManager *)beaconManager didDetermineState:(SBKRegionState) state forRegion:(SBKBeaconID*) region
+{
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    switch (state) {
+        case SBKRegionStateEnter:
+        {
+            NSString * message = [NSString stringWithFormat:@"\U0001F603 进入:%@",region];
+            notification.alertBody = message;
+            [[UIApplication sharedApplication] scheduleLocalNotification:notification];
+        }
+            break;
+        case SBKRegionStateLeave:
+        {
+            NSString * message = [NSString stringWithFormat:@"\U0001F603 离开:%@",region];
+            notification.alertBody = message;
+            [[UIApplication sharedApplication] scheduleLocalNotification:notification];
+        }
+            break;
+        case SBKRegionStateUnknown:
+            
+            break;
+            
+        default:
+            break;
+    }
+    
+}
+
 #pragma mark - ConfigSearchBar
 - (void)configSearchBar
 {
@@ -279,7 +307,6 @@
 {
     return;
 }
-
 
 
 @end

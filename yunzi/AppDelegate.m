@@ -14,7 +14,7 @@
 #import "SBKBeaconManager+Cloud.h"
 
 
-@interface AppDelegate ()<CBCentralManagerDelegate>
+@interface AppDelegate ()<CBCentralManagerDelegate,SBKBeaconManagerDelegate>
 @property(strong, nonatomic)HomeViewController * homeVC;
 @property(strong, nonatomic)CLLocationManager * locationManager;
 @property(strong, nonatomic)CBCentralManager * CM;
@@ -53,15 +53,15 @@
       [[NSUUID alloc] initWithUUIDString:@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"], //AirLocate
       [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"] ,// Estimote
       [[NSUUID alloc] initWithUUIDString:@"63EA09C2-5345-4E6D-9776-26B9C6FC126C"],// Random for C54
-      [[NSUUID alloc] initWithUUIDString:@"FDA50693-A4E2-4FB1-AFCF-C6EB07647825"]// weixin
+      [[NSUUID alloc] initWithUUIDString:@"FDA50693-A4E2-4FB1-AFCF-C6EB07647825"],// weixin
+      [[NSUUID alloc] initWithUUIDString:@"46D06053-9FAD-483B-B704-E576735CE1A3"]// active
       ];
+
     for (NSUUID *uuid  in supportedProximityUUIDs) {
         SBKBeaconID *beaconId = [SBKBeaconID beaconIDWithProximityUUID:uuid];
-        [[SBKBeaconManager sharedInstance] startRangingBeaconsWithID:beaconId wakeUpApplication:NO];
+        [[SBKBeaconManager sharedInstance] startRangingBeaconsWithID:beaconId wakeUpApplication:YES];
     }
-    SBKBeaconID *beaconID = [SBKBeaconID beaconIDWithProximityUUID:SBKSensoroDefaultProximityUUID];
-    [[SBKBeaconManager sharedInstance] startRangingBeaconsWithID:beaconID
-                                               wakeUpApplication:NO];
+    
     [[SBKBeaconManager sharedInstance] requestAlwaysAuthorization];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(beacon:) name:SBKBeaconInRangeStatusUpdatedNotification object:nil];
     NSLog(@"%d",[[SBKBeaconManager sharedInstance] respondsToSelector:@selector(setCloudServiceEnable:)]);
@@ -215,6 +215,5 @@
         }
     }
 }
-
 
 @end

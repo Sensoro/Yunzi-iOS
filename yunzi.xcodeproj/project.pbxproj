@@ -668,7 +668,7 @@
 				TargetAttributes = {
 					4E19F30219E930CC00486365 = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = 8E42QMX22R;
+						DevelopmentTeam = Z5A6CCJB8R;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -891,8 +891,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TE HUI (A5Y9CLHH49)";
 				INFOPLIST_FILE = yunzi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -905,7 +905,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "96595369-2e3e-445c-8925-5d355bdbd520";
+				PROVISIONING_PROFILE = "7d792a44-3244-4b27-bac0-6c274324376d";
 			};
 			name = Debug;
 		};
@@ -915,8 +915,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Sensoro Technology Co.,Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TE HUI (A5Y9CLHH49)";
 				INFOPLIST_FILE = yunzi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -929,7 +929,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "96595369-2e3e-445c-8925-5d355bdbd520";
+				PROVISIONING_PROFILE = "7d792a44-3244-4b27-bac0-6c274324376d";
 			};
 			name = Release;
 		};
